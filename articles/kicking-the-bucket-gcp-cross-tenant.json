@@ -1,0 +1,10 @@
+{
+  "title": "Kicking the Bucket: Critical RCE and Cross-Tenant Exploits in 3 Different GCP Products",
+  "link": "https://focalsecurity.io/blog/kicking-the-bucket-gcp-cross-tenant/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "cross-tenant",
+    "remote code execution"
+  ]
+}

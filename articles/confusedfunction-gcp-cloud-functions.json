@@ -1,0 +1,10 @@
+{
+  "title": "ConfusedFunction: A Privilege Escalation Vulnerability Impacting GCP Cloud Functions",
+  "link": "https://www.tenable.com/blog/confusedfunction-a-privilege-escalation-vulnerability-impacting-gcp-cloud-functions",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "privilege escalation",
+    "cloud functions"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "ConfusedComposer: A Privilege Escalation Vulnerability Impacting GCP Composer",
+  "link": "https://www.tenable.com/blog/confusedcomposer-a-privilege-escalation-vulnerability-impacting-gcp-composer",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "privilege escalation",
+    "cloud composer"
+  ]
+}

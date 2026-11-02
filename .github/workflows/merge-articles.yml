@@ -1,0 +1,31 @@
+name: Merge articles
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Merge article files
+        run: node scripts/merge-articles.mjs
+
+      - name: Commit items.json
+        run: |
+          if git diff --quiet -- items.json; then
+            echo "items.json is already up to date"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add items.json
+          git commit -m "Update items.json"
+          git push

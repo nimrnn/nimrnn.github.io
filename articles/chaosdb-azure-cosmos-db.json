@@ -1,0 +1,10 @@
+{
+  "title": "ChaosDB: Unauthorized Privileged Access to Microsoft Azure Cosmos DB",
+  "link": "https://chaosdb.wiz.io/",
+  "categories": [
+    "cloud security",
+    "azure",
+    "cosmos db",
+    "cross-tenant"
+  ]
+}

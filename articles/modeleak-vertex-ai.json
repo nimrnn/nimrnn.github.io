@@ -1,0 +1,10 @@
+{
+  "title": "ModeLeak: Privilege Escalation to LLM Model Exfiltration in Vertex AI",
+  "link": "https://unit42.paloaltonetworks.com/privilege-escalation-llm-model-exfil-vertex-ai/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "vertex ai",
+    "privilege escalation"
+  ]
+}

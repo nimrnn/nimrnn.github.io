@@ -1,0 +1,10 @@
+{
+  "title": "Azure Historical Cross-Tenant Vulnerabilities",
+  "link": "https://cloud.hacktricks.wiki/en/pentesting-cloud/azure-security/az-cross-tenant-and-cross-subscription-attacks/historical-cross-tenant-vulnerabilities.html",
+  "categories": [
+    "cloud security",
+    "azure",
+    "cross-tenant",
+    "reference"
+  ]
+}

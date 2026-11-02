@@ -1,0 +1,10 @@
+{
+  "title": "FlowFixation: AWS Apache Airflow Service Takeover Vulnerability and Why Neglecting Guardrails Puts Major CSPs at Risk",
+  "link": "https://www.tenable.com/blog/flowfixation-aws-apache-airflow-service-takeover-vulnerability-and-why-neglecting-guardrails",
+  "categories": [
+    "cloud security",
+    "aws",
+    "airflow",
+    "remote code execution"
+  ]
+}

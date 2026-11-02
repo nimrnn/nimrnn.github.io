@@ -1,0 +1,10 @@
+{
+  "title": "#BrokenSesame: Accidental ‘write’ permissions to private registry allowed potential RCE to Alibaba Cloud Database Services",
+  "link": "https://web.archive.org/web/20240805182451/https://www.wiz.io/blog/brokensesame-accidental-write-permissions-to-private-registry-allowed-potential-r",
+  "categories": [
+    "cloud security",
+    "alibaba cloud",
+    "supply chain",
+    "remote code execution"
+  ]
+}

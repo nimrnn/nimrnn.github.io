@@ -1,0 +1,10 @@
+{
+  "title": "Go With the Flow: How a Shadow Dependency Led to a Cross-Tenant Vulnerability in GCP Dataflow",
+  "link": "https://www.varonis.com/blog/shadow-dependency-in-gcp-dataflow-cross-tenant",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "dataflow",
+    "cross-tenant"
+  ]
+}

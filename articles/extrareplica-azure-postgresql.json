@@ -1,0 +1,10 @@
+{
+  "title": "ExtraReplica: Cross-Account Database Vulnerability in Azure PostgreSQL",
+  "link": "https://www.wiz.io/blog/wiz-research-discovers-extrareplica-cross-account-database-vulnerability-in-azure-postgresql",
+  "categories": [
+    "cloud security",
+    "azure",
+    "postgresql",
+    "cross-tenant"
+  ]
+}

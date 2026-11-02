@@ -1,0 +1,10 @@
+{
+  "title": "Feeding Frenzy: RCE on Azure Cosmos for PostgreSQL",
+  "link": "https://www.varonis.com/blog/rce-on-azure-cosmos-for-postgresql",
+  "categories": [
+    "cloud security",
+    "azure",
+    "cosmos db",
+    "remote code execution"
+  ]
+}
