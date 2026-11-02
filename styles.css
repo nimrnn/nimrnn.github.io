@@ -1,12 +1,12 @@
 :root {
   color-scheme: dark;
-  --background: #1b2433;
-  --surface: #243044;
-  --surface-hover: #2c3a50;
-  --border: #394961;
-  --border-strong: #4b5f7a;
+  --background: #151c27;
+  --surface: #1e2838;
+  --surface-hover: #253145;
+  --border: #334257;
+  --border-strong: #455871;
   --text: #e8edf5;
-  --muted: #98a5b8;
+  --muted: #94a2b6;
   --accent: #8ab4f8;
   --accent-strong: #b6d4ff;
   --accent-soft: rgba(138, 180, 248, 0.16);
@@ -59,7 +59,7 @@ button {
 input {
   flex: 1;
   min-width: 0;
-  background: linear-gradient(180deg, #273449 0%, #232e40 100%);
+  background: linear-gradient(180deg, #202b3b 0%, #1c2534 100%);
 }
 
 input::placeholder {
@@ -73,7 +73,7 @@ input:hover {
 input:focus {
   outline: none;
   border-color: var(--accent);
-  background: #273449;
+  background: #202b3b;
   box-shadow: 0 0 0 3px var(--accent-soft), 0 6px 18px rgba(8, 12, 20, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -81,7 +81,7 @@ input:focus {
 button {
   cursor: pointer;
   border-color: var(--border-strong);
-  background: linear-gradient(180deg, #303f57 0%, #283548 100%);
+  background: linear-gradient(180deg, #29374b 0%, #222e3f 100%);
   font-weight: 600;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -89,7 +89,7 @@ button {
 
 button:hover {
   border-color: var(--accent);
-  background: linear-gradient(180deg, #36465f 0%, #2d3a4e 100%);
+  background: linear-gradient(180deg, #2f3e53 0%, #273446 100%);
   box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.08), 0 6px 18px rgba(8, 12, 20, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
