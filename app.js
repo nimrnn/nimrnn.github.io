@@ -29,7 +29,18 @@ function showMore() {
     link.textContent = item.title;
     link.setAttribute("target", "_blank");
     link.setAttribute("rel", "noopener noreferrer");
-    listItem.append(link);
+
+    const tags = document.createElement("div");
+    tags.className = "category-tags";
+
+    for (const category of item.categories) {
+      const tag = document.createElement("span");
+      tag.className = "category-tag";
+      tag.textContent = category;
+      tags.append(tag);
+    }
+
+    listItem.append(link, tags);
     fragment.append(listItem);
   }
 

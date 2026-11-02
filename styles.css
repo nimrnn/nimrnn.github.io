@@ -1,15 +1,15 @@
 :root {
   color-scheme: dark;
-  --background: #202734;
-  --surface: #2a3343;
-  --surface-hover: #313c4f;
-  --border: #3b475c;
-  --border-strong: #4c5c75;
-  --text: #e8edf5;
-  --muted: #97a3b7;
-  --accent: #8ab4f8;
-  --accent-strong: #a6c8ff;
-  --accent-soft: rgba(138, 180, 248, 0.16);
+  --background: #1b211a;
+  --surface: #242c23;
+  --surface-hover: #2c362b;
+  --border: #384436;
+  --border-strong: #4a5b47;
+  --text: #e8eee5;
+  --muted: #99a594;
+  --accent: #a5d0a7;
+  --accent-strong: #bce2bc;
+  --accent-soft: rgba(165, 208, 167, 0.16);
 }
 
 * {
@@ -39,19 +39,19 @@ main {
 .controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 0.6rem;
 }
 
 input,
 button {
-  min-height: 3rem;
-  padding: 0.7rem 1.05rem;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.85rem;
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 9px;
   background: var(--surface);
   color: var(--text);
   font: inherit;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 4px 12px rgba(8, 12, 20, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 4px 12px rgba(8, 14, 8, 0.16);
   transition: border-color 150ms ease, background-color 150ms ease, box-shadow 150ms ease,
     color 150ms ease, transform 150ms ease;
 }
@@ -59,7 +59,7 @@ button {
 input {
   flex: 1;
   min-width: 0;
-  background: linear-gradient(180deg, #2c3647 0%, #283141 100%);
+  background: linear-gradient(180deg, #273025 0%, #232b22 100%);
 }
 
 input::placeholder {
@@ -73,15 +73,15 @@ input:hover {
 input:focus {
   outline: none;
   border-color: var(--accent);
-  background: #2b3546;
-  box-shadow: 0 0 0 3px var(--accent-soft), 0 8px 22px rgba(8, 12, 20, 0.18),
+  background: #273125;
+  box-shadow: 0 0 0 3px var(--accent-soft), 0 6px 18px rgba(8, 14, 8, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 button {
   cursor: pointer;
   border-color: var(--border-strong);
-  background: linear-gradient(180deg, #334055 0%, #2b3546 100%);
+  background: linear-gradient(180deg, #303b2e 0%, #283126 100%);
   font-weight: 600;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -89,33 +89,33 @@ button {
 
 button:hover {
   border-color: var(--accent);
-  background: linear-gradient(180deg, #3a4860 0%, #313c4f 100%);
-  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.08), 0 8px 22px rgba(8, 12, 20, 0.18),
+  background: linear-gradient(180deg, #364334 0%, #2d382b 100%);
+  box-shadow: 0 0 0 3px rgba(165, 208, 167, 0.08), 0 6px 18px rgba(8, 14, 8, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 button:active {
   transform: translateY(1px);
-  box-shadow: inset 0 2px 4px rgba(8, 12, 20, 0.25);
+  box-shadow: inset 0 2px 4px rgba(8, 14, 8, 0.28);
 }
 
 #surprise {
   border-color: var(--accent-strong);
-  background: linear-gradient(180deg, #9cc3ff 0%, #7faaf0 100%);
-  color: #121a26;
-  box-shadow: 0 4px 14px rgba(81, 131, 204, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  background: linear-gradient(180deg, #b9dfb7 0%, #93c59b 100%);
+  color: #142015;
+  box-shadow: 0 4px 14px rgba(76, 126, 85, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
 
 #surprise:hover {
-  border-color: #c2dcff;
-  background: linear-gradient(180deg, #acd0ff 0%, #8cb5f5 100%);
-  color: #0d1521;
-  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.16), 0 6px 18px rgba(81, 131, 204, 0.4),
+  border-color: #d2eecf;
+  background: linear-gradient(180deg, #c9eac5 0%, #a3d3a8 100%);
+  color: #0e190f;
+  box-shadow: 0 0 0 3px rgba(165, 208, 167, 0.16), 0 6px 18px rgba(76, 126, 85, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 #surprise:active {
-  box-shadow: inset 0 2px 5px rgba(20, 48, 89, 0.3);
+  box-shadow: inset 0 2px 5px rgba(31, 65, 38, 0.3);
 }
 
 :focus-visible {
@@ -132,18 +132,41 @@ button:active {
 }
 
 #results li {
+  padding: 0.65rem 0.25rem 0.75rem;
   border-bottom: 1px solid var(--border);
 }
 
 #results a {
   display: block;
-  padding: 0.8rem 0.25rem;
+  padding: 0;
   color: var(--text);
   text-decoration: none;
 }
 
 #results a:hover {
   color: var(--accent);
+}
+
+.category-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+
+.category-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.5rem;
+  border: 1px solid rgba(165, 208, 167, 0.18);
+  border-radius: 999px;
+  background: rgba(165, 208, 167, 0.07);
+  color: #b3c1ad;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 #show-more {
