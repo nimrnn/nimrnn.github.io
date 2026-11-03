@@ -8,11 +8,11 @@
 
 :root {
   color-scheme: dark;
-  --background: #233142;
-  --surface: #2b3a4d;
-  --surface-hover: #354860;
-  --border: #3f5570;
-  --border-strong: #52698a;
+  --background: #101822;
+  --surface: #1b2634;
+  --surface-hover: #22303f;
+  --border: #2c3c4f;
+  --border-strong: #3d5270;
   --text: #e8edf5;
   --muted: #94a2b6;
   --accent: #8ab4f8;
@@ -85,7 +85,7 @@ button {
 input {
   flex: 1;
   min-width: 0;
-  background: linear-gradient(180deg, #2c3c50 0%, #273647 100%);
+  background: linear-gradient(180deg, #1e2b3b 0%, #19232f 100%);
 }
 
 .search-field input {
@@ -104,7 +104,7 @@ input:hover {
 input:focus {
   outline: none;
   border-color: var(--accent);
-  background: #2c3c50;
+  background: #1e2b3b;
   box-shadow: 0 0 0 3px var(--accent-soft), 0 6px 18px rgba(8, 12, 20, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -112,7 +112,7 @@ input:focus {
 button {
   cursor: pointer;
   border-color: var(--border-strong);
-  background: linear-gradient(180deg, #29374b 0%, #222e3f 100%);
+  background: linear-gradient(180deg, #212e3e 0%, #1c2734 100%);
   font-weight: 600;
   letter-spacing: -0.01em;
   white-space: nowrap;
@@ -120,7 +120,7 @@ button {
 
 button:hover {
   border-color: var(--accent);
-  background: linear-gradient(180deg, #2f3e53 0%, #273446 100%);
+  background: linear-gradient(180deg, #263546 0%, #202d3d 100%);
   box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.08), 0 6px 18px rgba(8, 12, 20, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
@@ -139,7 +139,7 @@ button:active {
   justify-content: center;
   min-height: 0;
   padding: 0.3rem;
-  border: 1px solid transparent;
+  border: 0;
   border-radius: 8px;
   background: transparent;
   box-shadow: none;
@@ -161,11 +161,12 @@ button:active {
   opacity: 1;
 }
 
-#surprise:hover {
-  border-color: var(--border-strong);
+#surprise:hover,
+#surprise:focus-visible {
+  outline: none;
   background: var(--accent-soft);
   transform: translateY(-50%);
-  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.12), 0 4px 12px rgba(8, 12, 20, 0.24);
+  box-shadow: none;
 }
 
 #surprise:active {
