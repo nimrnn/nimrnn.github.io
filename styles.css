@@ -229,7 +229,8 @@ button:active {
   align-self: flex-start;
   min-height: 0;
   padding: 0.15rem 0.4rem;
-  font-weight: 400;
+  font-size: 0.85rem;
+  font-weight: 300;
   line-height: 1.2;
 }
 
