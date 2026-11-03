@@ -227,6 +227,8 @@ button:active {
 
 #show-more {
   align-self: flex-start;
+  padding: 0.35rem 0.6rem;
+  font-weight: 400;
 }
 
 [hidden] {
