@@ -10,9 +10,14 @@
 </head>
 <body>
   <main>
+    <h1 class="site-title">All on Cloud Hacking</h1>
     <div class="controls">
-      <input id="search" type="search" placeholder="Search articles" aria-label="Search articles" autocomplete="off" autofocus>
-      <button id="surprise" type="button">Surprise me</button>
+      <div class="search-field">
+        <input id="search" type="search" placeholder="Search articles" aria-label="Search articles" autocomplete="off" autofocus>
+        <button id="surprise" type="button" aria-label="Surprise me" title="Surprise me">
+          <img src="assets/icons/dice-cube.png" alt="" aria-hidden="true">
+        </button>
+      </div>
     </div>
     <ul id="results"></ul>
     <button id="show-more" type="button" hidden>Show more</button>

@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/dancing-script-700-latin.woff2") format("woff2");
+}
+
 :root {
   color-scheme: dark;
-  --background: #151c27;
-  --surface: #1e2838;
-  --surface-hover: #253145;
-  --border: #334257;
-  --border-strong: #455871;
+  --background: #233142;
+  --surface: #2b3a4d;
+  --surface-hover: #354860;
+  --border: #3f5570;
+  --border-strong: #52698a;
   --text: #e8edf5;
   --muted: #94a2b6;
   --accent: #8ab4f8;
@@ -36,10 +44,28 @@ main {
   padding: 3rem 0;
 }
 
+.site-title {
+  margin: 0;
+  text-align: center;
+  font-family: "Dancing Script", "Brush Script MT", cursive;
+  font-weight: 700;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 12px rgba(8, 12, 20, 0.35);
+}
+
 .controls {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+}
+
+.search-field {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 0;
 }
 
 input,
@@ -59,7 +85,12 @@ button {
 input {
   flex: 1;
   min-width: 0;
-  background: linear-gradient(180deg, #202b3b 0%, #1c2534 100%);
+  background: linear-gradient(180deg, #2c3c50 0%, #273647 100%);
+}
+
+.search-field input {
+  width: 100%;
+  padding-right: 2.9rem;
 }
 
 input::placeholder {
@@ -73,7 +104,7 @@ input:hover {
 input:focus {
   outline: none;
   border-color: var(--accent);
-  background: #202b3b;
+  background: #2c3c50;
   box-shadow: 0 0 0 3px var(--accent-soft), 0 6px 18px rgba(8, 12, 20, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
@@ -100,22 +131,46 @@ button:active {
 }
 
 #surprise {
-  border-color: var(--accent-strong);
-  background: linear-gradient(180deg, #9cc3ff 0%, #7faaf0 100%);
-  color: #111b2b;
-  box-shadow: 0 4px 14px rgba(74, 122, 199, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+  position: absolute;
+  top: 50%;
+  right: 0.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 0.3rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: none;
+  transform: translateY(-50%);
+}
+
+#surprise img {
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+  opacity: 0.8;
+  filter: brightness(0) invert(1) drop-shadow(0 1px 2px rgba(8, 12, 20, 0.55));
+  transition: opacity 150ms ease;
+}
+
+#surprise:hover img,
+#surprise:focus-visible img {
+  opacity: 1;
 }
 
 #surprise:hover {
-  border-color: #c9e1ff;
-  background: linear-gradient(180deg, #acd0ff 0%, #8cb5f5 100%);
-  color: #0d1624;
-  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.16), 0 6px 18px rgba(74, 122, 199, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-color: var(--border-strong);
+  background: var(--accent-soft);
+  transform: translateY(-50%);
+  box-shadow: 0 0 0 3px rgba(138, 180, 248, 0.12), 0 4px 12px rgba(8, 12, 20, 0.24);
 }
 
 #surprise:active {
-  box-shadow: inset 0 2px 5px rgba(18, 40, 76, 0.3);
+  transform: translateY(-50%) scale(0.94);
+  box-shadow: inset 0 2px 4px rgba(8, 12, 20, 0.28);
 }
 
 :focus-visible {
