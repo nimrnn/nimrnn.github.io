@@ -1,0 +1,10 @@
+{
+  "title": "Remote Command Execution in Google Cloud with Single Directory Deletion",
+  "link": "https://flatt.tech/research/posts/remote-command-execution-in-google-cloud-with-single-directory-deletion/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "remote code execution",
+    "vulnerability research"
+  ]
+}

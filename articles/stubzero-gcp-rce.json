@@ -1,0 +1,10 @@
+{
+  "title": "StubZero: $148,337 RCE in Google Cloud Production",
+  "link": "https://brutecat.com/articles/google-cloud-rce/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "remote code execution",
+    "vulnerability research"
+  ]
+}

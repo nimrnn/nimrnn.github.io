@@ -1,0 +1,10 @@
+{
+  "title": "Client-Side SSRF to Google Cloud Project Takeover [Google VRP]",
+  "link": "https://www.cloudvulndb.org/client-side-ssrf-google-cloud-project-takeover",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "ssrf",
+    "account takeover"
+  ]
+}

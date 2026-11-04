@@ -1,0 +1,10 @@
+{
+  "title": "Privilege escalation via GKE Metadata protection downgrade attack scenario",
+  "link": "https://bughunters.google.com/reports/vrp/BrQZ18W5k",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "kubernetes",
+    "privilege escalation"
+  ]
+}

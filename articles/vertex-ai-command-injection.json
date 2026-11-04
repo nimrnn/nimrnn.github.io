@@ -1,0 +1,10 @@
+{
+  "title": "My first bug in Google Cloud: Command injection in Vertex AI",
+  "link": "https://buganizer.cc/bug_vertex_ai/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "vertex ai",
+    "command injection"
+  ]
+}

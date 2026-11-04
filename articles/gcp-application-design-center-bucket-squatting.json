@@ -1,0 +1,10 @@
+{
+  "title": "Cross-tenant compromise of Application Design Center spaces via bucket squatting",
+  "link": "https://bughunters.google.com/reports/vrp/HRDqQWSLs",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "cross-tenant",
+    "bucket squatting"
+  ]
+}

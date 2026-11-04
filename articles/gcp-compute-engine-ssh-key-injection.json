@@ -1,0 +1,10 @@
+{
+  "title": "SSH key injection in Google Cloud Compute Engine [Google VRP]",
+  "link": "https://blog.stazot.com/ssh-key-injection-google-cloud/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "ssh",
+    "compute engine"
+  ]
+}

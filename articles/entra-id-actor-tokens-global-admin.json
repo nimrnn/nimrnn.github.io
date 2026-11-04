@@ -1,0 +1,10 @@
+{
+  "title": "One Token to rule them all - obtaining Global Admin in every Entra ID tenant via Actor tokens",
+  "link": "https://dirkjanm.io/obtaining-global-admin-in-every-entra-id-tenant-with-actor-tokens/",
+  "categories": [
+    "cloud security",
+    "entra id",
+    "azure",
+    "privilege escalation"
+  ]
+}

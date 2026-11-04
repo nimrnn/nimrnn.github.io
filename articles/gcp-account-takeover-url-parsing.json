@@ -1,0 +1,10 @@
+{
+  "title": "Google Cloud Account Takeover via URL Parsing Confusion",
+  "link": "https://infosecwriteups.com/google-cloud-account-takeover-via-url-parsing-confusion-c5e47389b7c7",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "account takeover",
+    "url parsing"
+  ]
+}

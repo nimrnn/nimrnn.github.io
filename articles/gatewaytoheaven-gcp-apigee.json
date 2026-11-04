@@ -1,6 +1,6 @@
 {
-  "title": "GatewayToHeaven: A Critical Cross-Tenant Data Leak in GCP's Apigee",
-  "link": "https://focalsecurity.io/blog/gatewaytoheaven-gcp-cross-tenant-vulnerability/",
+  "title": "GatewayToHeaven: Finding a Critical Cross-Tenant Exploit in GCP's Apigee",
+  "link": "https://omeramiad.com/posts/gatewaytoheaven-gcp-cross-tenant-vulnerability",
   "categories": [
     "cloud security",
     "gcp",

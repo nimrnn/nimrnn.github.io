@@ -1,0 +1,10 @@
+{
+  "title": "XSS using postMessage in Google Cloud Theia notebooks [Google VRP]",
+  "link": "https://web.archive.org/web/20230115051640/https://blog.geekycat.in/xss-using-postmessage-in-google-cloud-theia-notebooks/",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "xss",
+    "vulnerability research"
+  ]
+}

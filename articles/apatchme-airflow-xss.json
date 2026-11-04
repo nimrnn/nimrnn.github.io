@@ -1,0 +1,11 @@
+{
+  "title": "ApatchMe - Authenticated Stored XSS Vulnerability in AWS and GCP Apache Airflow Services",
+  "link": "https://www.tenable.com/blog/apatchme-authenticated-stored-xss-vulnerability-in-aws-and-gcp-apache-airflow-services",
+  "categories": [
+    "cloud security",
+    "aws",
+    "gcp",
+    "airflow",
+    "xss"
+  ]
+}

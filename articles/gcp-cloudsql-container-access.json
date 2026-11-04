@@ -1,0 +1,10 @@
+{
+  "title": "GCP CloudSQL Vulnerability Leads to Internal Container Access and Data Exposure",
+  "link": "https://web.archive.org/web/20230525144859/https://www.dig.security/post/gcp-cloudsql-vulnerability-leads-to-internal-container-access-and-data-exposure",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "cloudsql",
+    "data exposure"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Remote Code Execution in Google Cloud Dataflow",
+  "link": "https://web.archive.org/web/20221219213741/https://mbrancato.github.io/2021/12/28/rce-dataflow.html",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "dataflow",
+    "remote code execution"
+  ]
+}
