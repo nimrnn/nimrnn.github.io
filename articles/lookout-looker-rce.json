@@ -1,0 +1,10 @@
+{
+  "title": "LookOut: Discovering RCE and Internal Access on Looker (Google Cloud & On-Prem)",
+  "link": "https://www.tenable.com/blog/google-looker-vulnerabilities-rce-internal-access-lookout",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "looker",
+    "remote code execution"
+  ]
+}

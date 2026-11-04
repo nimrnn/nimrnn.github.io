@@ -1,0 +1,10 @@
+{
+  "title": "EmojiDeploy: Smile! Your Azure web service just got RCE'd ._.",
+  "link": "https://www.tenable.com/blog/Emoji-Deploy-Smile-Your-Azure-web-service-just-got-Rced",
+  "categories": [
+    "cloud security",
+    "azure",
+    "remote code execution",
+    "vulnerability research"
+  ]
+}

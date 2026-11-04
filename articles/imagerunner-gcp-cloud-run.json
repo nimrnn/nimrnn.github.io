@@ -1,0 +1,10 @@
+{
+  "title": "ImageRunner: A Privilege Escalation Vulnerability Impacting GCP Cloud Run",
+  "link": "https://www.tenable.com/blog/imagerunner-a-privilege-escalation-vulnerability-impacting-gcp-cloud-run",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "privilege escalation",
+    "cloud run"
+  ]
+}

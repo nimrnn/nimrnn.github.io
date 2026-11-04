@@ -1,0 +1,10 @@
+{
+  "title": "LeakyLooker: Hacking Google Cloud's Data via Dangerous Looker Studio Vulnerabilities",
+  "link": "https://www.tenable.com/blog/leakylooker-google-cloud-looker-studio-vulnerabilities",
+  "categories": [
+    "cloud security",
+    "gcp",
+    "looker",
+    "data exfiltration"
+  ]
+}
